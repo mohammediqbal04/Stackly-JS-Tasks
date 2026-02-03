@@ -1,0 +1,63 @@
+Internship Assignment – JavaScript (var, let, const)
+
+Mohammed Iqbal J – Full Stack Developer
+
+1. What is the difference between var, let, and const?
+Answer: var is function-scoped, while let and const are block-scoped. const cannot be reassigned.
+
+2. Which keyword allows redeclaration and why?
+Answer: var allows redeclaration because it does not follow block scope.
+
+3. Which keyword allows reinitialization?
+Answer: var and let allow reinitialization.
+
+4. Which keyword does not allow redeclaration and reinitialization?
+Answer: const does not allow redeclaration or reinitialization.
+
+5. Why should const be used for fixed values?
+Answer: const prevents accidental reassignment and ensures data safety.
+
+6. What error occurs when redeclaring a let variable?
+Answer: SyntaxError: Identifier has already been declared.
+
+7. What error occurs when reassigning a const variable?
+Answer: TypeError: Assignment to constant variable.
+
+8. Which keyword is preferred in modern JavaScript and why?
+Answer: let and const are preferred for better scope control and fewer bugs.
+
+9. Can const be declared without initialization? Explain.
+Answer: No, const must be initialized at the time of declaration.
+
+10. When should var be avoided?
+Answer: var should be avoided due to hoisting and scope issues.
+
+11. Predict the output: var a = 10; a = 20; var a = 30; console.log(a);
+Answer: Output will be 30.
+
+12. Predict the output: let b = 5; b = 15; console.log(b);
+Answer: Output will be 15.
+
+13. Identify the error: let x = 10; let x = 20;
+Answer: SyntaxError due to redeclaration of let variable.
+
+14. Identify the error: const y = 50; y = 100;
+Answer: TypeError because const variables cannot be reassigned.
+
+15. Write a program using var to show redeclaration.
+Answer: var a = 10; var a = 20; console.log(a);
+
+16. Write a program using let to show reinitialization.
+Answer: let b = 5; b = 10; console.log(b);
+
+17. Write a program using const and explain why value cannot change.
+Answer: const c = 100; // Value cannot change because const prevents reassignment
+
+18. Convert var to let where applicable.
+Answer: Use let instead of var for block-scoped variables.
+
+19. Convert var to const where applicable.
+Answer: Use const for values that do not change.
+
+20. Write your own example for var, let, and const.
+Answer: var a = 1; let b = 2; const c = 3;
